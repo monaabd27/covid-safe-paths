@@ -47,6 +47,10 @@ allprojects {
             // All of Detox' artifacts are provided via the npm module
             url "$rootDir/../node_modules/detox/Detox-android"
         }
+        maven {
+            // expo-camera bundles a custom com.google.android:cameraview
+            url "$rootDir/../node_modules/expo-camera/android/maven"
+        }
 
         google()
         jcenter()

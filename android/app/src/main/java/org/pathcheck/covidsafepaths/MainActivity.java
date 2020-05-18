@@ -7,7 +7,17 @@ import com.facebook.react.ReactRootView;
 import com.igorbelyayev.rnlocalresource.RNLocalResourcePackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerEnabledRootView;
 import org.devio.rn.splashscreen.SplashScreen;
-
+import com.rnfs.RNFSPackage; // <------- add package 
+ 
+public class MainApplication extends Application implements ReactApplication {
+   // ... 
+    @Override
+    protected List<ReactPackage> getPackages() {
+      return Arrays.<ReactPackage>asList(
+        new MainReactPackage(), // <---- add comma 
+        new RNFSPackage() // <---------- add package 
+      );
+    }
 public class MainActivity extends ReactActivity {
 
   @Override
