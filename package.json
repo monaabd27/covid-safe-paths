@@ -1,6 +1,6 @@
 {
   "name": "covidsafepaths",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "private": true,
   "scripts": {
     "clean": "rm -rf node_modules && yarn",
@@ -108,8 +108,7 @@
     "semver": "^7.3.2",
     "victory-native": "^34.1.0",
     "yarn": "^1.22.4",
-    "valid-url": "^1.0.9",
-    "victory-native": "^34.1.0"
+    "valid-url": "^1.0.9"
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
