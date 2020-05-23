@@ -11,7 +11,7 @@ const defaultConfig = getDefaultConfig.getDefaultValues(__dirname);
 module.exports = {
   resolver: {
     // react-native-local-resource
-    assetExts: [...defaultConfig.resolver.assetExts, 'html'],
+    assetExts: [...defaultConfig.resolver.assetExts, 'html', 'bin'],
   },
   transformer: {
     getTransformOptions: async () => ({

@@ -223,8 +223,10 @@ android {
         }
     }
 }
-
+apply from: '../../node_modules/react-native-unimodules/gradle.groovy'
 dependencies {
+    implementation project(':react-native-fs')
+    addUnimodulesDependencies()
     // loading html files
     compile project(':react-native-local-resource')
     implementation project(':react-native-reanimated')
