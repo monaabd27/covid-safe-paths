@@ -1,4 +1,4 @@
-## [1.0.12](https://github.com/monaabd27/covid-safe-paths/compare/v0.5.4...1.0.12) (2020-05-20)
+## [1.0.13](https://github.com/monaabd27/covid-safe-paths/compare/v0.5.4...1.0.13) (2020-05-23)
 
 
 ### Reverts
